@@ -127,6 +127,16 @@
                 android:layout_marginBottom="10dp"
                 android:text="@string/action_assign_doctor" />
 
+            <!-- Generate registration codes for new staff members -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGenerateRegistrationCode"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="10dp"
+                android:text="Generate Staff Registration Code" />
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSettings"
                 style="@style/Widget.Material3.Button.OutlinedButton"

@@ -25,6 +25,13 @@ interface ApiService {
     @POST("api/staff/auth/register.php")
     suspend fun register(@Body request: RegisterRequest): Response<SimpleResponse>
 
+    // Generates a registration code for a new staff member.
+// Only an authenticated administrator should be allowed to use this endpoint.
+    @POST("api/staff/auth/generate-registration-code.php")
+    suspend fun generateRegistrationCode(
+        @Body request: GenerateRegistrationCodeRequest
+    ): Response<RegistrationCodeResponse>
+
     @POST("api/staff/auth/google.php")
     suspend fun googleLogin(@Body request: GoogleLoginRequest): Response<LoginResponse>
 

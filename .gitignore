@@ -1,2 +1,15 @@
 .DS_Store
 *.log
+
+# Android Studio and Gradle generated files
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+
+# Generated APK files
+*.apk
+*.aab
+

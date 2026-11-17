@@ -97,7 +97,19 @@
         <action
             android:id="@+id/action_adminDashboard_to_registerWalkin"
             app:destination="@id/registerWalkinFragment" />
+        <!-- Navigate to staff registration code screen -->
+        <action
+            android:id="@+id/action_adminDashboard_to_registrationCode"
+            app:destination="@id/registrationCodeFragment" />
     </fragment>
+
+
+    <!-- Screen used by administrators to generate staff registration codes -->
+    <fragment
+        android:id="@+id/registrationCodeFragment"
+        android:name="com.example.primecare.ui.admin.RegistrationCodeFragment"
+        android:label="Staff Registration Code"
+        tools:layout="@layout/fragment_registration_code" />
 
     <fragment
         android:id="@+id/appointmentsListFragment"

@@ -78,6 +78,12 @@ class AdminDashboardFragment :
             AuthRepository(SessionManager(requireContext())).logout()
             findNavController().navigate(R.id.action_adminDashboard_to_login)
         }
+        // Open the screen used to generate staff registration codes.
+        binding.btnGenerateRegistrationCode.setOnClickListener {
+            findNavController().navigate(
+                R.id.action_adminDashboard_to_registrationCode
+            )
+        }
     }
 
     override fun onResume() {
