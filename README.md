@@ -136,7 +136,7 @@ The project plan includes testing website navigation, forms, authentication, dat
 <br>
 **Website URL:** Website is a downloadable file in repository.<br>
 **Android APK:** APK is a downloadable file in repository.<br>
-**GitHub repository:** (https://github.com/Tshegofatsoo/primecare-project)<br>
+**GitHub repository:** (https://github.com/sibuyi-stacey/PrimeCare-Resubmission)<br>
 **Azure DevOps Repository:** (https://dev.azure.com/ST10457058/_git/Prime%20Care%20Medical%20Center)</br>
 **Youtube Demonstration Video Link (Website):**(https://youtu.be/e0TeuPSbWnw)</br>
 <br>
