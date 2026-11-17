@@ -138,7 +138,8 @@ The project plan includes testing website navigation, forms, authentication, dat
 **Android APK:** APK is a downloadable file in repository.<br>
 **GitHub repository:** (https://github.com/sibuyi-stacey/PrimeCare-Resubmission)<br>
 **Azure DevOps Repository:** (https://dev.azure.com/ST10457058/_git/Prime%20Care%20Medical%20Center)</br>
-**Youtube Demonstration Video Link (Website):**(https://youtu.be/e0TeuPSbWnw)</br>
+**Youtube Demonstration Video Link (Website):**(https://youtu.be/cylszH63zds?feature=shared )</br>
+**Youtube Demonstration Video Link (App):**(https://youtu.be/3cslv3Rb0lQ?feature=shared)</br>
 <br>
 **Running the Website Locally**
 The website currently uses PHP and MySQL and can be run using a local WAMP Server environment.<br>
